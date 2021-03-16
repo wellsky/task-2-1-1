@@ -3,7 +3,7 @@ fun main() {
     //println(calculateCommission("Visa", 8000_00, 100000_00))
     //println(calculateCommission("Visa", 500_00, 100000_00))
     println(calculateCommission("Mastercard", 200_00, 200000_00))
-    //println(calculateCommission("Mastercard", 1000_00, 100000_00))
+    println(calculateCommission("Mastercard", 1000_00, 100000_00))
 }
 
 fun calculateCommission(cardType: String = "Vk Pay", summ: Int, currentMonthSumm: Int = 0): Int {
